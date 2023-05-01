@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def sudoku(rows):
+def pydoku(rows):
     
     flag = True
     for row in rows:                                                # validate each row.
@@ -32,10 +32,8 @@ def sudoku(rows):
                                               
                                 
 if __name__ == '__main__':
-
-    # Proof of concept 
-    
-    print(sudoku(                                                   # ->> Ture. 
+                                                                    # Proof of concept 
+    print(pydoku(                                                   # ->> Ture. 
         [
             (2, 9, 5, 7, 4, 3, 8, 6, 1),
             (4, 3, 1, 8, 6, 5, 9, 2, 7),
